@@ -1,0 +1,15 @@
+{
+  "name": "@indoor-fish/shared-libs",
+  "version": "1.0.0",
+  "description": "Shared types, DTOs, errors, and constants for the indoor-fish platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"ok\""
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
